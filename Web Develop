@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>TABLE</title>
+</head>
+<body>
+<?php
+echo "<table border='1px solid black' text-align='center' width='70%' height='50%' border-collapse='collapse'>";
+  echo "<tr color='#04AA6D'>";
+    echo "<th background-color='#04AA6D' color='white'>Sl.No</th>";
+    echo "<th background-color='#04AA6D' color='white'>Name</th>";
+	echo "<th background-color='#04AA6D' color='white'>Subject</th>";
+	echo "<th background-color='#04AA6D' color='white'>Mark</th>";
+  echo "</tr>";
+ echo "<tr:hover{background-color='yellow}'>";
+    echo "<td>1</td>
+    <td>A</td>
+	<td>HTMl</td>
+	<td>80</td>";
+  echo "</tr>";
+  echo "<tr:hover{background-color='yellow'>";
+    echo "<td>2</td>
+    <td>B</td>
+	<td>CSS</td>
+	<td>90</td>";
+  echo "</tr>";
+  echo "<tr:hover{background-color='yellow'>";
+    echo "<td>3</td>
+    <td>C</td>
+	<td>javaScript</td>
+	<td>95</td>";
+  echo "</tr>";
+  echo "<tr:hover{background-color='yellow'>";
+    echo "<td>4</td>
+    <td>D</td>
+	<td>PHP</td>
+	<td>75</td>";
+  echo "</tr>";
+  echo "<tr:hover{background-color='yellow'>";
+    echo "<td>5</td>
+    <td>E</td>
+	<td>MySQL</td>
+	<td>85</td>";
+  echo "</tr>";
+  echo "<tr:hover{background-color='yellow'>";
+    echo "<td>6</td>
+    <td>F</td>
+	<td>JQUERY</td>
+	<td>90</td>";
+  echo "</tr>";
+  echo "<tr:hover{background-color='yellow'>";
+    echo "<td>7</td>
+    <td>G</td>
+	<td>JAVA</td>
+	<td>85</td>";
+  echo "</tr>";
+echo "</table>";
+?>
+</body>
+</html>
